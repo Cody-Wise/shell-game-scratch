@@ -90,6 +90,20 @@ footer {
     box-shadow: var(--shadow);
 }
 
-cups{
-    
+.shells{
+    display: flex;
+    flex-direction: rows;
+}
+
+.shell{
+    display: flex;
+    flex-direction: column;
+    padding: var(--gutter);
+    margin: var(--gutter);
+  
+
+}
+
+.shell img{
+    width: 250px;
 }
