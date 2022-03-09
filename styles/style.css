@@ -107,3 +107,58 @@ footer {
 .shell img{
     width: 250px;
 }
+
+.results{
+    padding: 10px;
+    margin: 10px;
+  
+}
+
+.animation{
+    animation: MoveUpDown 1s linear;
+    position: relative;
+    left: 0;
+    bottom: 0;
+  }
+  
+  @keyframes MoveUpDown {
+    0%, 100% {
+      bottom: 0;
+    }
+    50% {
+      bottom: 100px;
+    }
+  }
+
+  .animation{
+    animation: MoveUpDown 1s linear;
+    position: relative;
+    left: 0;
+    bottom: 0;
+  }
+  
+  @keyframes MoveUpDown {
+    0%, 100% {
+      bottom: 0;
+    }
+    50% {
+      bottom: 100px;
+    }
+  }
+
+  .animation {
+    animation: MoveUpDown 1s linear;
+    position: relative;
+    left: 0;
+    bottom: 0;
+  }
+  
+  @keyframes MoveUpDown {
+    0%, 100% {
+      bottom: 0;
+    }
+    50% {
+      bottom: 100px;
+    }
+  }
+
