@@ -131,6 +131,7 @@ function handleGuess(userGuess, correctSpot) {
           
     }
 
+
     winsEl.textContent = wins;
     totalEl.textContent = total;
     lossesEl.textContent = total - wins;
